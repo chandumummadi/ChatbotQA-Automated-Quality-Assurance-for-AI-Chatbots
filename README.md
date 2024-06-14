@@ -6,6 +6,7 @@ This repository contains scripts to automate interactions with both the ZenoChat
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -25,6 +26,19 @@ This project automates the process of sending questions to ZenoChat and HuggingC
 - **Response Capture**: Captures responses and saves them in the Excel files.
 - **Semantic Validation**: Validates responses using `sentence-transformers` to compare the semantic similarity between expected and actual responses.
 - **Results Visualization**: Generates pie charts to visualize the percentage of pass/fail responses.
+
+## Project Structure
+```
+chat-response-validator/
+│
+├── ZenoChatTest.py
+├── HuggingChatTest.py
+├── responseValidator.py
+├── requirements.txt
+├── README.md
+├── ZenoChatResponses.xlsx
+└── HuggingChatResponses.xlsx
+```
 
 ## Prerequisites
 
