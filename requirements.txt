@@ -1,0 +1,6 @@
+# Selenium packages
+selenium==4.1.0
+webdriver-manager==3.5.1
+
+# OpenPyXL for Excel handling
+openpyxl==3.0.9
