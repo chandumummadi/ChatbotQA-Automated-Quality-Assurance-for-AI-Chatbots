@@ -55,12 +55,18 @@ chat-response-validator/
     cd automated-chat-response-validator
     ```
 
-2. **Install the required packages**:
+2.  **Create and Activate Virtual Environment**:
+
+    ```sh
+    virtualenv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+3. **Install the required packages**:
     ```sh
     pip install -r requirements.txt
     ```
 
-3. **Download ChromeDriver**:
+4. **Download ChromeDriver**:
     Ensure that ChromeDriver is installed and its path is added to the system's PATH variable.
 
 ## Usage
