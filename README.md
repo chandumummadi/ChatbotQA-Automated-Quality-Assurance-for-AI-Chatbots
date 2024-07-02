@@ -1,4 +1,4 @@
-# Automated Chat Response Validator
+# ChatbotQA: Automated Quality Assurance for AI Chatbots
 
 This repository contains scripts to automate interactions with both the ZenoChat and HuggingChat platforms, send questions, capture responses, and validate the responses using semantic similarity.
 
